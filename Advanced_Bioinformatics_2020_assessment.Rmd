@@ -187,7 +187,7 @@ x <- cars$speed_ft
 # Generate Plot (with titles and the line coloured orange-red and placed headings on the axis as well as a title) with the stated formula:
 ggplot(cars, aes(speed_ft, dist)) + geom_point() + geom_smooth(method='lm', formula="y~0+x+I(x^2)", col ="orangered2") + labs(title = "The average reaction time for driver to start breaking", x="Car Speed (ft./s)", y="Distance (ft.)")
 
-# The formula "y~0+x+I(x^2)" is a linear model that fits a quadratic formula with zero offset
+# The formula "y~0+x+I(x^2)" is a linear model that fits a quadratic formula with zero offset.
 ```
 
 <p>&nbsp;</p>
