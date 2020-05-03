@@ -4,7 +4,7 @@ author: 'Candidate ID: 9535'
 date: "1st April 2020"
 output:
   html_document: default
-  keep_md: yes
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
