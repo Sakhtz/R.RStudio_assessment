@@ -1,6 +1,6 @@
 Advanced Bioinformatics 2020 assessment
 ================
-Candidate ID: 9535
+\[Candidate ID: 9535\]
 1st April 2020
 
 <p>
@@ -15,7 +15,7 @@ Candidate ID: 9535
 
 -----
 
-##### Using the sum() function and : operator, the sum of all integers between 5 and 55 was coded as shown:
+#### Using the sum() function and : operator, the sum of all integers between 5 and 55 was coded as shown:
 
 ``` r
 # Sum of 5 to 55 sequence:
@@ -36,7 +36,7 @@ sum(5:55)
 
 -----
 
-##### The following code was used to produce the “sumfun” function, enabling one input parameter to calculate the sum of all integers between 5 and n. The function is used to do the calculation for n = 10, n = 20, and n = 100 with the results presented below:
+#### The following code was used to produce the “sumfun” function, enabling one input parameter to calculate the sum of all integers between 5 and n. The function is used to do the calculation for n = 10, n = 20, and n = 100 with the results presented below:
 
 ``` r
 # Function sumfun created as requested by the following code:
@@ -88,7 +88,7 @@ sumfun(100)
 
 -----
 
-##### An R script using a “for loop” statement to calculate the Fibonacci series for the first 12 entries, where the first two steps in the sequence are 1, 1 is shown below:
+#### An R script using a “for loop” statement to calculate the Fibonacci series for the first 12 entries, where the first two steps in the sequence are 1, 1 is shown below:
 
 ``` r
 # Fibonacci is explained as nth= (n-1)th + (n-2)th. Using "x" instead of n (as n used prior) and a "for loop" statement.
@@ -129,7 +129,7 @@ for(entries in 1:(12)) {
 
 -----
 
-##### With the mtcars dataset bundled with R, ggplot is used to generate a box of miles per gallon (in the variable mpg) as a function of the number of gears (in the variable gear), with the fill aesthetic to colour bars by number of gears as shown:
+#### With the mtcars dataset bundled with R, ggplot is used to generate a box of miles per gallon (in the variable mpg) as a function of the number of gears (in the variable gear), with the fill aesthetic to colour bars by number of gears as shown:
 
   - The following code was run to install ggplot:
 
@@ -182,7 +182,7 @@ ggplot(mtcars, aes(mpg, as.factor(gear), fill= as.factor(gear))) + geom_boxplot(
 
 -----
 
-##### The following code fits a linear relationship between speed and breaking distance in the variable distance and provides details for the fitted slope and intercept of the line, and their standard errors. The units of each variable are also listed and how they were procured.
+#### The following code fits a linear relationship between speed and breaking distance in the variable distance and provides details for the fitted slope and intercept of the line, and their standard errors. The units of each variable are also listed and how they were procured.
 
 ``` r
 # Load cars datset
@@ -237,7 +237,7 @@ help(cars)
 
 -----
 
-##### Used ggplot to plot the data points from Task 6\* and the linear fit as shown:
+#### Used ggplot to plot the data points from Task 6\* and the linear fit as shown:
 
 ###### \* *I am assuming this task is referring to the one previous to this (Task 3.5) rather than itself*
 
@@ -264,7 +264,7 @@ ggplot(cars, aes(x = speed, y = dist)) +
 
 -----
 
-##### The code used to generate the plot (with explanations) to answer the question is as follows with the addition of the generated plot and stating whether reasonable results have been achieved, are as listed:
+#### The code used to generate the plot (with explanations) to answer the question is as follows with the addition of the generated plot and stating whether reasonable results have been achieved, are as listed:
 
 ``` r
 # The speed list from cars datset in mph converted to ft/s (conversion factor is 5280/3600), in order to estimate reaction time in seconds :
