@@ -174,7 +174,7 @@ summary(line)
 
 <p>&nbsp;</p>
 
-> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction speed.
+> ##### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction speed.
 
 <p>&nbsp;</p>
 
