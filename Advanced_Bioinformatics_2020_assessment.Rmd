@@ -3,9 +3,9 @@ title: "Advanced Bioinformatics 2020 assessment"
 author: '[Candidate ID: 9535]'
 date: "1st April 2020"
 output:
-  github_document: default
-  word_document: default
   html_document: default
+  word_document: default
+  github_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -175,7 +175,7 @@ summary(line)
 <p>&nbsp;</p>
 
 
-> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction time. However, the reaction time may be influenced by additional variables. Considering that we do not know the age of the drivers, reaction time increases as the driver is older. The breaking mechanisms in these 1920s period cars may not be as responsive as they are today. So there may be a delay in the mechanism engaging the brakes. Road condition for each data point may have been slightly different. We are assuming "once breaking commences, breaking distance is proportional to the square of the speed". This is somewhat realistic. Although, yes, the reaction time seems reasonable it is based on multiple assumptions, and may be a lot quicker or slower. With online sources stating a reaction speed between 0.7-1.5 seconds.
+> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction time. However, the reaction time may be influenced by additional variables. Considering that we do not know the age of the drivers, reaction time increases as the driver is older. The breaking mechanisms in these 1920s period cars may not be as responsive as they are today. So there may be a delay in the mechanism engaging the brakes. Road condition for each data point may have been slightly different. We are assuming "once breaking commences, braking distance is proportional to the square of the speed". This is somewhat realistic. Although, yes, the reaction time seems reasonable it is based on multiple assumptions, and may be a lot quicker or slower. With online sources stating a reaction speed between 0.7-1.5 seconds.
 
 
 <p>&nbsp;</p>
