@@ -176,7 +176,7 @@ ggplot(mtcars, aes(mpg, as.factor(gear), fill= as.factor(gear))) + geom_boxplot(
 
 -----
 
-#### The following code fits a linear relationship between speed and breaking distance in the variable distance and provides details for the fitted slope and intercept of the line, and their standard errors. The units of each variable are also listed and how they were procured.
+#### The following code fits a linear relationship between speed and braking distance in the variable distance and provides details for the fitted slope and intercept of the line, and their standard errors. The units of each variable are also listed and how they were procured.
 
 ``` r
 # Load cars datset
@@ -296,7 +296,7 @@ summary(line)
 
 </p>
 
-> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction time. However, the reaction time may be influenced by additional variables. Considering that we do not know the age of the drivers, reaction time increases as the driver is older. The breaking mechanisms in these 1920s period cars may not be as responsive as they are today. So there may be a delay in the mechanism engaging the brakes. Road condition for each data point may have been slightly different. We are assuming “once braking commences, braking distance is proportional to the square of the speed”. This is somewhat realistic. Although, yes, the reaction time seems reasonable it is based on multiple assumptions, and may be a lot quicker or slower. With online sources stating a reaction speed between 0.7-1.5 seconds.
+> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction time. However, the reaction time may be influenced by additional variables. Considering that we do not know the age of the drivers, reaction time increases as the driver is older. The braking mechanisms in these 1920s period cars may not be as responsive as they are today. So there may be a delay in the mechanism engaging the brakes. Road condition for each data point may have been slightly different. We are assuming “once braking commences, braking distance is proportional to the square of the speed”. This is somewhat realistic. Although, yes, the reaction time seems reasonable it is based on multiple assumptions, and may be a lot quicker or slower. With online sources stating a reaction speed between 0.7-1.5 seconds.
 
 <p>
 
@@ -310,7 +310,7 @@ y <- cars$dist
 x <- cars$speed_ft
 
 # Generate Plot (with titles and the line coloured orange-red and placed headings on the axis as well as a title) with the stated formula:
-ggplot(cars, aes(speed_ft, dist)) + geom_point() + geom_smooth(method='lm', formula="y~0+x+I(x^2)", col ="orangered2") + labs(title = "The average reaction time for driver to start breaking", x="Car Speed (ft./s)", y="Distance (ft.)")
+ggplot(cars, aes(speed_ft, dist)) + geom_point() + geom_smooth(method='lm', formula="y~0+x+I(x^2)", col ="orangered2") + labs(title = "The average reaction time for driver to start braking", x="Car Speed (ft./s)", y="Distance (ft.)")
 ```
 
 ![](Advanced_Bioinformatics_2020_assessment_files/figure-gfm/Task%203.7.2-1.png)<!-- -->
