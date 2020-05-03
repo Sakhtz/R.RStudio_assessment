@@ -264,7 +264,7 @@ ggplot(cars, aes(x = speed, y = dist)) +
 # The speed list from cars datset in mph converted to ft/s (conversion factor is 5280/3600), in order to estimate reaction time in seconds :
 speed_ft <- cars$speed * (5280/3600)
 
-# Equation for line including the assumption OBC ∝ speed^2:
+# Equation for line including the assumption OB Distance ∝ speed^2:
 line<-lm(dist ~ 0 + speed_ft + I(speed_ft^2),data = cars)
 
 # Call summary information:
