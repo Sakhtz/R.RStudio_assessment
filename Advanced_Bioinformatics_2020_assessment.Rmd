@@ -3,8 +3,9 @@ title: "Advanced Bioinformatics 2020 assessment"
 author: '[Candidate ID: 9535]'
 date: "1st April 2020"
 output:
-  html_document: default
   github_document: default
+  word_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -83,7 +84,7 @@ ___
 #### With the mtcars dataset bundled with R, ggplot is used to generate a box of miles per gallon (in the variable mpg) as a function of the number of gears (in the variable gear), with the fill aesthetic to colour bars by number of gears as shown:
 
 + The following code was run to install ggplot:
-```{r Task 3.4.0}
+```{r Task 3.4.0 r, message=FALSE}
 # Install ggplot and load:
 install.packages("ggplot2")
 library(ggplot2)

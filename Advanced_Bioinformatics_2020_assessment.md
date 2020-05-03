@@ -138,12 +138,6 @@ for(entries in 1:(12)) {
 ``` r
 # Install ggplot and load:
 install.packages("ggplot2")
-```
-
-    ## Installing package into '/home/rstudio-user/R/x86_64-pc-linux-gnu-library/3.6'
-    ## (as 'lib' is unspecified)
-
-``` r
 library(ggplot2)
 ```
 
