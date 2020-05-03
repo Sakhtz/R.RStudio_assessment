@@ -4,8 +4,7 @@ author: 'Candidate ID: 9535'
 date: "1st April 2020"
 output:
   html_document: default
-  pdf_document: default
-  word_document: default
+  keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
