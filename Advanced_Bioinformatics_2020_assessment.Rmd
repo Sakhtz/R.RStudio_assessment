@@ -165,7 +165,7 @@ ___
 # The speed list from cars datset in mph converted to ft/s (conversion factor is 5280/3600), in order to estimate reaction time in seconds :
 speed_ft <- cars$speed * (5280/3600)
 
-# Equation for line including the assumption OBC ∝ speed^2:
+# Equation for line including the assumption OB Distance ∝ speed^2:
 line<-lm(dist ~ 0 + speed_ft + I(speed_ft^2),data = cars)
 
 # Call summary information:
@@ -175,7 +175,7 @@ summary(line)
 <p>&nbsp;</p>
 
 
-> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction speed.
+> ###### Yes, the result is reasonable as 0.84479 seconds is a realistic average reaction time. However, the reaction time may be influenced by additional variables. Considering that we do not know the age of the drivers, reaction time increases as the driver is older. The breaking mechanisms in these 1920s period cars may not be as responsive as they are today. So their may be a delay in the mechanism engaging the brakes. Road condition for each data point may have been slightly different. We are assuming "once breaking commences, breaking distance is proportional to the square of the speed". This is somewhat realistic. Although, yes, the reaction time seems reasonable it is based on multiple assumptions, and may be alot quicker or slower. With online sources stating a reaction speed between 0.7-1.5 seconds.
 
 
 <p>&nbsp;</p>
